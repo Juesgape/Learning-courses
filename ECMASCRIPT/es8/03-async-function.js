@@ -14,6 +14,7 @@ const data = [{
 
 const getData = () => {
     return new Promise((resolve, reject) => {
+        //Forcing an error
         if(data.length === 0) {
             setTimeout(() => {
                 resolve(data)
